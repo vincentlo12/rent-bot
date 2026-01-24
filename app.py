@@ -20,7 +20,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # OpenAI will automatically read OPENAI_API_KEY from environment
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+##client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 DB_PATH = "negotiations.db"
 
